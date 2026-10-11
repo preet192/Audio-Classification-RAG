@@ -140,3 +140,4 @@ This project utilizes the **ESC-50 (Dataset for Environmental Sound Classificati
 - **Deep Learning:** TensorFlow / Keras (CNN-LSTM)
 - **Generative AI:** Google GenAI SDK (Gemini 2.5 Flash)
 - **Visualization:** Matplotlib, Seaborn
+
