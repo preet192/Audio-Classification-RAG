@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Environment Variables & Secrets
+.env
+*.env
+.secret
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Audio dataset binaries (exclude 600MB raw wav files and subrepo clutter)
+ESC-50-master/audio/
+ESC-50-master/.circleci/
+ESC-50-master/.github/
+ESC-50-master/tests/
+ESC-50-master/esc50.gif
+ESC-50-master/LICENSE
+ESC-50-master/pytest.ini
+ESC-50-master/requirements.txt
+ESC-50-master/.gitignore
+ESC-50-master/README.md
+*.wav
+*.mp3
+*.ogg
+*.zip
+
+# Large Deep Learning Weights (>100MB)
+*.keras
+*.h5
+models/*.keras
+models/*.h5
+
+# OS generated files
+.DS_Store
+Thumbs.db
